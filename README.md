@@ -16,7 +16,9 @@ Therefore, the data acquired with diffusion gradient cycling can be conveniently
 ## usage
 
 before motion correction:
+
 `python ge_gradient_cycling_reorder.py data_with_dgc.nii.gz bvals tr_vols.nii.gz`
 
 after motion correction:
+
 `python ge_gradient_cycling_reorder.py tr_vols_corrected.nii.gz bvals encoding_vols_corrected.nii.gz --reverse`
